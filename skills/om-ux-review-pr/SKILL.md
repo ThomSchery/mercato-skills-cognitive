@@ -2,6 +2,7 @@
 name: om-ux-review-pr
 description: Use when a PR's UI needs an evidence-backed design review, e.g. 'review the UX of PR 123'. Walk changed screens in a browser and rank findings by user impact with evidence, patterns, trade-offs, and acceptance criteria. Use --guard for static design-contract checks, or --guard --health for repository-wide checks.
 ---
+Read COGNITION.md.
 
 # UX Review
 

@@ -2,6 +2,7 @@
 name: om-auto-manage-issues
 description: Use when existing issues need triage or clearer requirements, e.g. 'clean up these issues'. Apply SDLC labels, clarify issues and screenshots, post prep analysis, check Definition of Ready, and flag missing feature specs; optionally write them with --write-missing-specs. Handle one issue or a batch, respecting claims; do not implement.
 ---
+Read COGNITION.md.
 
 # Auto Manage Issues (enrich existing issues)
 

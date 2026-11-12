@@ -2,6 +2,7 @@
 name: om-evolve-harness
 description: Turn a real agent failure into one reproducible eval-harness case plus the smallest knowledge change — failing case first, one knowledge owner, semantic assertions, before/after evidence through the repo's configured harness commands. Use for "add harness case", "agent got this wrong", "extend the harness", "rozszerz harness".
 ---
+Read COGNITION.md.
 
 # Evolve the Harness from Evidence
 

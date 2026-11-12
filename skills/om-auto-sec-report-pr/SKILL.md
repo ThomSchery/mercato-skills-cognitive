@@ -2,6 +2,7 @@
 name: om-auto-sec-report-pr
 description: Paranoid OWASP-style security analysis of ONE unit (a PR, spec, or branch diff) — severity-ranked findings, non-obvious attack vectors, same-pattern hotspots, and "go deeper" follow-up runs. Writes a redacted report (live exploitable details withheld), kept local by default or shipped as a docs PR, or a fragment for `om-auto-sec-report`. Use for "security review of PR 123".
 ---
+Read COGNITION.md.
 
 # Auto Security Report — Single Unit
 

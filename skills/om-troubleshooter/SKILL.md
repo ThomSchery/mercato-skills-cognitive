@@ -2,6 +2,7 @@
 name: om-troubleshooter
 description: Diagnose a failure from its symptom — reproduce, classify the broken invariant, route via the repo AGENTS.md Task Router, trace the smallest root cause, and on request land a minimal fix behind a regression test. Framework knowledge via om-framework-context. Use for "why does this fail", "debug this", "fix this bug", "regression", "napraw błąd".
 ---
+Read COGNITION.md.
 
 # Troubleshooter
 

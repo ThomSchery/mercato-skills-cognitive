@@ -2,6 +2,7 @@
 name: om-setup-agent-pipeline
 description: One-time pipeline configurator. Inspects the repo (default branch, validation scripts, labels), asks a few questions, writes .ai/agentic.config.json — the file every other skill reads — installs the tracker descriptor, and generates missing project docs (SDLC.md, CODE_REVIEW.md, BACKWARD_COMPATIBILITY.md, AGENTS.md starter). Re-run when the toolchain or label taxonomy changes. Verifies cross-skill coverage and prints the install command for missing skills.
 ---
+Read COGNITION.md.
 
 # Setup Agent Pipeline
 

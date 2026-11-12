@@ -2,6 +2,7 @@
 name: om-ux-setup
 description: Use when a repository needs its design contract extracted or refreshed, e.g. 'set up UX checks' or after design-system changes. Write tokens, components, screen archetypes, and conventions to .uxproof/, including versioned dependency design systems, so UX skills assess against this repository's system. Extract the contract without reviewing the UI.
 ---
+Read COGNITION.md.
 
 # UX Setup
 

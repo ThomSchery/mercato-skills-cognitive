@@ -2,6 +2,7 @@
 name: om-fix-issue-multi
 description: Thin cross-model alias for om-fix-issue that reviews the diagnosis and final diff with configured independent advisors, then leaves the verified fix staged and unpublished. Use when the user says "fix with multiple models", "cross-model staged fix", "multi review this issue", or "napraw issue z wieloma modelami".
 ---
+Read COGNITION.md.
 
 # Fix Issue — Multi
 

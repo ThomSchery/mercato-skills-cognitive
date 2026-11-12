@@ -2,6 +2,7 @@
 name: om-auto-review-pr
 description: Use when a PR needs review or re-review, e.g. 'review PR 123'. Review code or a spec-only design in an isolated worktree, submit approve/request-changes, and manage pipeline labels. Fix/test/re-review automatically for the automation's own PRs or with --autofix; hand other authors the findings.
 ---
+Read COGNITION.md.
 
 # Auto Review PR
 

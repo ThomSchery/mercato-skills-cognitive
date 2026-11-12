@@ -2,6 +2,7 @@
 name: om-discover
 description: Guide a product discovery conversation and write product-brief.md with the problem, evidence, scope, decisions, and the next uncertainty to resolve. Use for product discovery, defining a product, or refreshing its brief. Supports existing products, client ideas, and own ideas.
 ---
+Read COGNITION.md.
 
 # Discover
 

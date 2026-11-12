@@ -2,6 +2,7 @@
 name: om-harness
 description: Shared internal runtime for configurable staged-only implementation workers, evidence-gated work packets, and multi-model review councils. Use indirectly through om-fix-issue, om-implement-feature, or om-setup-agent-harness; do not use it to publish, commit, push, or open a pull request.
 ---
+Read COGNITION.md.
 
 # Agent Harness
 

@@ -2,6 +2,7 @@
 name: om-root-cause
 description: Use when a confirmed tracker defect needs read-only diagnosis before implementation, e.g. 'find the cause of issue 123'. Used by om-auto-fix-issue after triage. Locate the bug and minimal change surface, then return a summary, files to change, approach, and risks for om-fix.
 ---
+Read COGNITION.md.
 
 # Root Cause
 

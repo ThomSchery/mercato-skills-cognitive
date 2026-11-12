@@ -2,6 +2,7 @@
 name: om-auto-issue-triage
 description: Rank open issues suitable for autofix and add the configured queue label only after human confirmation. Use for "triage issues for autofix", "mark issues cez-autofix", or "wybierz zgłoszenia do automatycznej naprawy". Proposes and labels; implementation belongs to om-auto-fix-issue.
 ---
+Read COGNITION.md.
 
 # Auto Issue Triage
 

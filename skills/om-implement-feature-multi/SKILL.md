@@ -2,6 +2,7 @@
 name: om-implement-feature-multi
 description: Thin cross-model alias for om-implement-feature that reviews the spec and final diff with configured independent advisors, then leaves the verified feature staged and unpublished. Use when the user says "implement with multiple models", "cross-model staged feature", "multi review this feature", or "zaimplementuj z wieloma modelami".
 ---
+Read COGNITION.md.
 
 # Implement Feature — Multi
 

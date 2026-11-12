@@ -2,6 +2,7 @@
 name: om-implement-feature-optimized
 description: Thin worker-optimized alias for om-implement-feature that delegates bounded implementation packets to configured models, then leaves the verified feature staged and unpublished. Use when the user says "optimized feature build", "use model workers", "cheap staged feature", or "zaimplementuj przez workerów".
 ---
+Read COGNITION.md.
 
 # Implement Feature — Optimized
 

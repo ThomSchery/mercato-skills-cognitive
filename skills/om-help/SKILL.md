@@ -2,6 +2,7 @@
 name: om-help
 description: Read-only router for "which skill should I use?", "what do I do next?", "how do I do X here?". Builds the answer at run time from the repo's AGENTS.md Task Router, the skills actually installed, optional repo workflow data, and knowledge sources — then recommends and hands back control. Never runs the pipeline itself.
 ---
+Read COGNITION.md.
 
 # Help — route a task to the right skill
 

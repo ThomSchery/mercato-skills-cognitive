@@ -2,6 +2,7 @@
 name: om-apply-upgrade-notes
 description: Use when upgrading the skills collection, e.g. 'apply the upgrade notes'. Sync installed tracker and browser descriptors while preserving local edits, check pipeline config and installed artifacts, and report custom-provider gaps and changes.
 ---
+Read COGNITION.md.
 
 # Apply Upgrade Notes
 

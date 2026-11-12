@@ -2,6 +2,7 @@
 name: om-share-this-session
 description: Publicly share a sanitized coding-agent session plus a ZIP of the files it generated, then file a harness-feedback issue at the configured destination — local sanitization, full privacy review, exact fresh consent first. Use for "share this session", "report this agent run", "udostępnij tę sesję". Never for telemetry or without consent.
 ---
+Read COGNITION.md.
 
 # Share This Session
 

@@ -2,6 +2,7 @@
 name: om-open-pr
 description: Use when validated changes must ship as a PR, e.g. 'open a PR for this'. Commit and push, reuse an existing PR or open a ready PR against the configured base branch, apply SDLC labels and rationale, and hand back issue-driven claims. Emit PR and Issue chaining references.
 ---
+Read COGNITION.md.
 
 # Open PR
 

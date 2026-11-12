@@ -2,6 +2,7 @@
 name: om-auto-create-pr
 description: Use when a task should be implemented autonomously and delivered as a PR, e.g. 'build this and open a PR'. Write a tracked execution plan, implement in an isolated worktree, run configured validation, and apply pipeline labels. Long plans hand off to om-auto-create-pr-loop; resume via om-auto-continue-pr.
 ---
+Read COGNITION.md.
 
 # Auto Create PR
 

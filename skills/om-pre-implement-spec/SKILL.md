@@ -2,6 +2,7 @@
 name: om-pre-implement-spec
 description: Audit a spec before implementation — readiness gate, backward-compatibility check against BACKWARD_COMPATIBILITY.md, completeness, repo-rule compliance, risks, gaps — and leave a go/conditional/no-go report with a remediation plan. Read-only. Use for "is this spec ready", "pre-implement", "spec readiness", "BC analysis", "spec gap analysis".
 ---
+Read COGNITION.md.
 
 # Pre-Implement Spec
 

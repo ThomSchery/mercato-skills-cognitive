@@ -2,6 +2,7 @@
 name: om-prepare-test-env
 description: Use when tests or browser QA need a reusable local environment, e.g. 'set up the test app'. Discover the stack, generate cross-platform launch scripts, provision the configured browser provider autonomously, and write the shared test-env descriptor for UI and integration-test skills.
 ---
+Read COGNITION.md.
 
 # Prepare Test Environment
 

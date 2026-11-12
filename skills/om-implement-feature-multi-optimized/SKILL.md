@@ -2,6 +2,7 @@
 name: om-implement-feature-multi-optimized
 description: Thin combined alias for om-implement-feature that uses configured implementation workers and independent review advisors, then leaves the verified feature staged and unpublished. Use when the user says "multi optimized feature", "workers plus model council", "cheap cross-model staged feature", or "zaimplementuj feature multi optimized".
 ---
+Read COGNITION.md.
 
 # Implement Feature — Multi Optimized
 

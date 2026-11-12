@@ -2,13 +2,13 @@
 name: om-auto-continue-pr
 description: Use when an open PR needs unfinished work resumed, e.g. 'continue PR 123'. Claim it and continue its execution plan in an isolated worktree, or reconstruct a plan from the PR context when none exists. Validate and update the same PR; long plans hand off to om-auto-continue-pr-loop.
 ---
+Read COGNITION.md.
 
 # Auto Continue PR
 
 Resume a PR that is not finished. Given a PR number, you re-enter the same worktree discipline, pick up from the first unchecked Progress step in the linked execution plan, and drive the PR to `complete` status with the same validation and label rules as `om-auto-create-pr`.
 
 The PR does **not** have to come from this pipeline. When it carries no execution plan — a human's PR, one from another tool, or a run that crashed before committing its plan — you **adopt** it: reconstruct the goal from the PR's own context, write it down as a real plan, and continue under the same discipline (step 2, `references/adopt-pr.md`). Missing paperwork is never a reason to hand a PR back unfinished.
-
 ## Arguments
 
 - `{prNumber}` (required) — the PR number to resume (for example `1492`).
@@ -16,7 +16,6 @@ The PR does **not** have to come from this pipeline. When it carries no executio
 - `--from <phase.step>` (optional) — override the resume point (e.g. `2.1`). Only honored when the Progress section cannot be parsed unambiguously.
 - `--adopt <ask|auto|off>` (optional) — how to handle a PR with no usable execution plan. `ask` lands the reconstructed plan and stops for the user to confirm it; `auto` lands it, documents it on the PR, and implements it without asking; `off` restores the pre-adoption behavior (report the missing plan and stop). Default: `auto` for unattended runs (chain step, schedule, CI) and `ask` when a user is in the loop — full decision rule in `references/adopt-pr.md`.
 - `--goal "<text>"` (optional) — the goal to reconstruct against, for a PR whose description does not state one. Treated as the highest-confidence evidence in the adoption sweep; it narrows the reconstruction, it never licenses work the PR's diff and conversation do not support.
-
 ## Chaining
 
 This skill resumes an existing PR: it consumes a `{prNumber}` and reads the PR body's `Tracking plan:` line (written by `om-auto-create-pr`) to find the execution plan — or, for a PR from outside the pipeline, reconstructs and writes that plan itself — and it updates that same PR rather than opening a duplicate (the reuse guard in `references/pr-finalize.md`). Adoption is what makes this skill a valid resume target for chains that hand over an arbitrary PR (`om-auto-fix-issue` when an open PR already references the issue, `om-auto-implement-spec` when an implementation PR already exists). It ends by reporting the `PR:` / `Issue:` chaining reference lines so the next skill in a chain can consume them. Companion skills (all optional, with inline fallbacks): `om-open-pr` (push + label normalization, inline fallback when absent), `om-auto-review-pr` (the single code-review/autofix pass), and `om-auto-continue-pr-loop` (hand-off when an adopted plan is too long for the plain engine) — each runs verbatim.

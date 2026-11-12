@@ -2,6 +2,7 @@
 name: om-review-prs
 description: Use when open PRs need a review sweep, e.g. 'review the unreviewed PRs'. Review newest first through om-auto-review-pr, respecting claim locks. Run sequentially by default; --subagents selects a fresh reviewer per PR and --parallel N bounds concurrency.
 ---
+Read COGNITION.md.
 
 # Review PRs
 

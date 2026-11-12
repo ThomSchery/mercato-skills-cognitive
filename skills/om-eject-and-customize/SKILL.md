@@ -2,6 +2,7 @@
 name: om-eject-and-customize
 description: Take one part of an installed dependency into the repo for customization via the eject recipe the dependency ships — decision gate first, confirmation before any change, provenance recorded so later upgrades can diff. Stops when no recipe exists. Use for "eject this module", "fork the installed component", "customize beyond extension points".
 ---
+Read COGNITION.md.
 
 # Eject and Customize
 

@@ -2,6 +2,7 @@
 name: om-create-agents-md
 description: Write, rewrite, or refresh an AGENTS.md (repo root or one package/module) from the actual codebase — Always / Ask First / Never / Validation Commands rules, task checklists, real paths and commands. Follows a repo template when present, else a built-in default. Use for "write AGENTS.md for this package", "rewrite our AGENTS.md", "refresh AGENTS.md".
 ---
+Read COGNITION.md.
 
 # Create AGENTS.md
 

@@ -2,6 +2,7 @@
 name: om-merge-buddy
 description: Use when you need a read-only view of which PRs can merge, e.g. 'what is ready to merge?'. Scan open PRs through the configured tracker, assess labels, reviews, CI, and mergeability, then report ready PRs and those close but blocked.
 ---
+Read COGNITION.md.
 
 # Merge Buddy
 

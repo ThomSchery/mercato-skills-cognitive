@@ -2,6 +2,7 @@
 name: om-auto-audit-dependencies
 description: Audit third-party dependencies for known security advisories in any ecosystem — reads every lockfile, uses the native audit tool where one exists and the OSV database otherwise, and files one deduplicated issue per vulnerable package with its upgrade path. For code-level security review use om-auto-sec-report. Use for "audit dependencies", "check for vulnerable packages", "security advisories".
 ---
+Read COGNITION.md.
 
 # Auto Audit Dependencies (advisories → upgrade tasks)
 

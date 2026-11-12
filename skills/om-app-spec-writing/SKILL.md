@@ -2,6 +2,7 @@
 name: om-app-spec-writing
 description: Write and review a business-level App Spec — domain model, workflows with ROI, stories with failure paths, platform gap mapping in atomic commits, phased rollout — before any feature spec exists. Feeds om-spec-writing via feature briefs. Use for "create an app spec", "define business requirements", "what should we build".
 ---
+Read COGNITION.md.
 
 # App Spec Writing
 

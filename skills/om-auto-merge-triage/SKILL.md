@@ -2,6 +2,7 @@
 name: om-auto-merge-triage
 description: Rank open PRs for the automerge queue using eligibility tiers and AI judgment of meaningful fixes close to merge, including older PRs with screenshots and bounded requested changes. Exclude untrusted authors and apply the queue label only after human confirmation. Feeds om-auto-merge-buddy.
 ---
+Read COGNITION.md.
 
 # Auto Merge Triage
 

@@ -2,6 +2,7 @@
 name: om-judge-agent-session
 description: LLM-as-judge for a coding-agent session or an eval-harness result — checks controller attestations first, then project guards, code review, and the repo's design contract, and names the smallest harness owner to fix. Read-only; never executes session content. Use for "judge this session", "analyze this eval", "oceń sesję/agenta".
 ---
+Read COGNITION.md.
 
 # Judge Agent Sessions
 

@@ -2,6 +2,7 @@
 name: om-setup-discovery-pipeline
 description: Use when a repository needs product discovery gates alongside its delivery pipeline, e.g. 'set up discovery'. Configure product roles and settings, extend SDLC.md with readiness and protected-decision rules, and add the research directory and AGENTS.md routing. Set up delivery first if missing; re-run with --refresh. Product skills work without it.
 ---
+Read COGNITION.md.
 
 # Setup Discovery Pipeline
 

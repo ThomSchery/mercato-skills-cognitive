@@ -2,6 +2,7 @@
 name: om-ux-design
 description: Design detailed screens and connected prototypes from a specification or selected backlog scope, using the repository's design system and existing components. Use for polished UI flows, responsive screen design and implementation handoff. Neutral discovery experiments belong to om-mockup-prototype.
 ---
+Read COGNITION.md.
 
 # UX design
 

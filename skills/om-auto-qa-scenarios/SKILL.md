@@ -2,6 +2,7 @@
 name: om-auto-qa-scenarios
 description: Turn a window of merged PRs (date, PR-number floor, or last 7 days) into a manual QA scenarios report for human testers — P0/P1/P2 routes with where to click, what to verify, what can go wrong — as markdown + HTML under paths.qa, shipped as a docs PR via om-auto-create-pr. Use for "what should QA test this week".
 ---
+Read COGNITION.md.
 
 # Auto QA Scenarios
 

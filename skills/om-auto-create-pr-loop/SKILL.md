@@ -2,6 +2,7 @@
 name: om-auto-create-pr-loop
 description: Use for long, multi-step tasks needing strict tracking and resumability, e.g. 'implement this spec step by step'. Create a run folder, commit each Step, verify checkpoints with integration tests and UI screenshots, then run the full gate and open a ready labeled PR. Resume via om-auto-continue-pr-loop; use om-auto-create-pr for small tasks.
 ---
+Read COGNITION.md.
 
 # Auto Create PR (loop)
 

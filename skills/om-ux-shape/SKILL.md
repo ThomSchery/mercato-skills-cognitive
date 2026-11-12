@@ -2,6 +2,7 @@
 name: om-ux-shape
 description: Turn a vague product, UI/UX, or AI feature idea into a decided direction. Use when shaping a feature, simplifying an overcomplicated flow, deciding whether and how to use AI, defining screen states, planning validation, or preparing a design handoff for engineering.
 ---
+Read COGNITION.md.
 
 # Shape Useful Features
 

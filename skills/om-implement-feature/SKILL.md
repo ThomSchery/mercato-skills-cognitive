@@ -2,6 +2,7 @@
 name: om-implement-feature
 description: Design and implement a feature through existing spec, testing, environment, and review skills, then leave a verified staged branch for human review without committing, pushing, or opening a pull request. Use when the user says "implement this feature but stop before PR", "leave the feature staged", "staged feature build", "zaimplementuj bez PR", or "zostaw feature staged".
 ---
+Read COGNITION.md.
 
 # Implement Feature for Human Review
 

@@ -2,6 +2,7 @@
 name: om-close-fixed-issues
 description: Close the tracker issues that recently merged PRs authoritatively fixed — via `fixes`/`closes`/`resolves` keywords or `closingIssuesReferences` — and post informational comments on issues whose PRs were closed without merging or merged into a non-base branch. Use for post-merge housekeeping and release prep. Respects claim locks and never acts on bare `#N` mentions.
 ---
+Read COGNITION.md.
 
 # Close Fixed Issues (reconcile merged PRs ↔ tracker)
 

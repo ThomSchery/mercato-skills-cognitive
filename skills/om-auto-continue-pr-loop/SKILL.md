@@ -2,6 +2,7 @@
 name: om-auto-continue-pr-loop
 description: Use when resuming a long om-auto-create-pr-loop run, e.g. 'resume PR 123 from its next step'. Claim the PR, resume its PLAN.md Tasks in an isolated worktree, preserve per-step commits and checkpoint tests with UI screenshots, then run the full gate. Keep spec-only PRs design-only; use om-auto-continue-pr for simple runs.
 ---
+Read COGNITION.md.
 
 # Auto Continue PR (loop)
 

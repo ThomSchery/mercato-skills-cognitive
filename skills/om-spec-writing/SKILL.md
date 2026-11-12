@@ -2,6 +2,7 @@
 name: om-spec-writing
 description: Write and review feature specifications to staff-engineer standards. Skeleton-first drafting with a hard Open Questions gate, research against market leaders, an implementation breakdown into phases and steps that feeds om-auto-create-pr, and a severity-ranked architectural review format. Use when starting a new spec or reviewing one.
 ---
+Read COGNITION.md.
 
 # Spec Writing & Review
 

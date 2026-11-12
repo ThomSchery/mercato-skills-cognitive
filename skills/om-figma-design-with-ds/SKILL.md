@@ -2,6 +2,7 @@
 name: om-figma-design-with-ds
 description: Design in a design tool (Figma or similar) on the repository's design system — write a brief for a new screen using only the contract's tokens, components and archetypes, or audit an existing design against the contract with a ranked remediation plan. Tool access goes through a configured provider. Use for "figma mockup", "audit this figma design".
 ---
+Read COGNITION.md.
 
 # Design with the design system
 

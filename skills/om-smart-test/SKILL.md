@@ -2,6 +2,7 @@
 name: om-smart-test
 description: Run only the tests a change can affect — diffs the branch against its base, maps changed files to affected units via the repo's test map or workspace manifest, picks tests per configured suite, runs them, and falls back to the full suite whenever the mapping is unsure. Use for "run affected tests", "test only what changed", "smart test".
 ---
+Read COGNITION.md.
 
 # Smart Test — run only the affected tests
 

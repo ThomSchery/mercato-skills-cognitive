@@ -2,6 +2,7 @@
 name: om-fix-issue-multi-optimized
 description: Thin combined alias for om-fix-issue that uses configured implementation workers and independent review advisors, then leaves the verified fix staged and unpublished. Use when the user says "multi optimized issue fix", "workers plus model council", "cheap cross-model staged fix", or "napraw issue multi optimized".
 ---
+Read COGNITION.md.
 
 # Fix Issue — Multi Optimized
 
